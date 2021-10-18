@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="top-header">
+        <h1 class="flex">ME ACHA!</h1>
+        <h2 class="flex">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+        <div>
+            <div class="flex logo pb-cima">
+                <span class="material-icons item"> travel_explore </span>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <div id="caixa">
+        <fieldset>
+            <label for="cep">Cep</label>
+            <input type="text" class="txt" id="cep" name="Cep" value="">
+            <label for="logradouro">Rua</label>
+            <input type="text" class="txt" id="logradouro" name="Logradouro" value="" disabled>
+            <label for="Bairro">Bairro</label>
+            <input type="text" class="txt" id="bairro" name="Bairro" value="" disabled>
+            <label for="Cidade">Cidade</label>
+            <input type="text" class="txt" id="localidade" name="Cidade" value="" disabled>
+            <label for="Estado">Estado</label>
+            <input type="text" class="txt" id="uf" name="Estado" value="" disabled>
+            <input type="button" class="botao" type="submit" id="botom" name="Buscar" value="BUSCAR">
+
+        </fieldset>
+    </div>
+    </main>
+
+</body>
+</html>

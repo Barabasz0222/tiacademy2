@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+:root{
+    font-size: 100%;
+    --cor-fonte: #fff;
+    --cor-fundo: #2196F3;
+}
+.item{
+    margin: 75px;
+    font-size: 64px;
+    background-color: #fff;
+    border-radius: 100%;
+    color: var(--cor-fundo);
+    padding: 10px;
+}
+div.logo{
+    justify-content: center;
+    color: var(--cor-fonte); 
+    
+}
+header#top-header{
+    height: 200px;
+    background-color:#2196F3;
+}
+header#top-header h1{
+    color: var(--cor-fonte);
+    font-family: verdana;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+header#top-header h2{
+    color: var(--cor-fonte);
+    font-family: verdana;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    margin: auto;
+}
+label{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    font-family: verdana;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.txt{
+    width: 90%;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+
+}
+fieldset{
+    padding: 10px;
+    border: none;
+    margin-left: 30px;
+
+}
+div#caixa{
+    width: 400px;
+    height: 330px;
+    /* background-color: brown; */
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+input.botao{
+    width:90%;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #2196F3;
+    margin-top: 5px;
+
+}
+#botom{
+    color: #fff;
+}
+
